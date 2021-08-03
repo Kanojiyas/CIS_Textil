@@ -1,0 +1,689 @@
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at EventHandles._CellValidating(Object sender, DataGridViewCellValidatingEventArgs e, DataTable& dt_HasDtls) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 587
+Date/Time: 20/08/2016 6:53:08 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at EventHandles._CellValidating(Object sender, DataGridViewCellValidatingEventArgs e, DataTable& dt_HasDtls) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 587
+Date/Time: 20/08/2016 6:53:09 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 22/08/2016 11:26:33 AM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Column 'FabPONo' does not belong to table .
+StackTrace:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at DetailGrid_Setup.AddColto_GridCombo(DataGridView& dgClient, Int32 ColWidth, Int32 ColIndex, String TableName, String HeaderText, String Col_Name, Boolean Col_IsReadonly, Boolean Col_IsHidden, Boolean ShowStock, String DisplayMember, String ValueMember, String sToolTip, String whereCondition, String IsComboString, DataGridViewComboBoxColumn dgColRef, Double DropDownWith) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\DetailGrid_Setup.cs:line 945
+Date/Time: 22/08/2016 11:30:07 AM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   at EventHandles.CreateDefault_Rows(DataGridViewEx fgDtls, DataTable dt_HasDtls, DataTable dt_AryCalcvalue, DataTable dt_AryIsRequired, Boolean blnCopyRow, Boolean IsBypass) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 767
+Date/Time: 22/08/2016 11:30:17 AM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 22/08/2016 12:03:47 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Column 'FabPONo' does not belong to table .
+StackTrace:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at DetailGrid_Setup.AddColto_GridCombo(DataGridView& dgClient, Int32 ColWidth, Int32 ColIndex, String TableName, String HeaderText, String Col_Name, Boolean Col_IsReadonly, Boolean Col_IsHidden, Boolean ShowStock, String DisplayMember, String ValueMember, String sToolTip, String whereCondition, String IsComboString, DataGridViewComboBoxColumn dgColRef, Double DropDownWith) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\DetailGrid_Setup.cs:line 945
+Date/Time: 22/08/2016 12:04:18 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   at EventHandles.CreateDefault_Rows(DataGridViewEx fgDtls, DataTable dt_HasDtls, DataTable dt_AryCalcvalue, DataTable dt_AryIsRequired, Boolean blnCopyRow, Boolean IsBypass) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 767
+Date/Time: 22/08/2016 12:04:23 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 22/08/2016 12:10:51 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Column 'BillNo' does not belong to table .
+StackTrace:    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at DetailGrid_Setup.AddColto_GridCombo(DataGridView& dgClient, Int32 ColWidth, Int32 ColIndex, String TableName, String HeaderText, String Col_Name, Boolean Col_IsReadonly, Boolean Col_IsHidden, Boolean ShowStock, String DisplayMember, String ValueMember, String sToolTip, String whereCondition, String IsComboString, DataGridViewComboBoxColumn dgColRef, Double DropDownWith) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\DetailGrid_Setup.cs:line 945
+Date/Time: 22/08/2016 12:12:15 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   at EventHandles.CreateDefault_Rows(DataGridViewEx fgDtls, DataTable dt_HasDtls, DataTable dt_AryCalcvalue, DataTable dt_AryIsRequired, Boolean blnCopyRow, Boolean IsBypass) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 767
+Date/Time: 22/08/2016 12:12:20 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   at EventHandles.CreateDefault_Rows(DataGridViewEx fgDtls, DataTable dt_HasDtls, DataTable dt_AryCalcvalue, DataTable dt_AryIsRequired, Boolean blnCopyRow, Boolean IsBypass) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 767
+Date/Time: 22/08/2016 12:13:10 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 22/08/2016 12:15:38 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 3:40:30 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at EventHandles._CellValidating(Object sender, DataGridViewCellValidatingEventArgs e, DataTable& dt_HasDtls) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 587
+Date/Time: 27/08/2016 3:45:34 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at EventHandles._CellValidating(Object sender, DataGridViewCellValidatingEventArgs e, DataTable& dt_HasDtls) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 587
+Date/Time: 27/08/2016 3:45:34 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at EventHandles._CellValidating(Object sender, DataGridViewCellValidatingEventArgs e, DataTable& dt_HasDtls) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 587
+Date/Time: 27/08/2016 3:45:37 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at EventHandles._CellValidating(Object sender, DataGridViewCellValidatingEventArgs e, DataTable& dt_HasDtls) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 587
+Date/Time: 27/08/2016 3:47:07 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 4:14:21 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Invalid column name 'Pcs'.
+Invalid column name 'TempRowIndex'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CIS_DBLayer.DB.ExecuteTranscation_Validate(String Sql, String pCodeID, Boolean ActionType, String strDtls, String sEntryNo, String sOtherNo, String sOtherName, Int32 iVoucherTypeID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_DBLayer\connection\DB.cs:line 744
+Date/Time: 27/08/2016 4:15:47 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Invalid column name 'Pcs'.
+Invalid column name 'TempRowIndex'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CIS_DBLayer.DB.ExecuteTranscation_Validate(String Sql, String pCodeID, Boolean ActionType, String strDtls, String sEntryNo, String sOtherNo, String sOtherName, Int32 iVoucherTypeID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_DBLayer\connection\DB.cs:line 744
+Date/Time: 27/08/2016 4:16:15 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 4:22:59 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.cboReturnType_SelectedValueChanged(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 808
+Date/Time: 27/08/2016 4:25:25 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:25:29 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:25:30 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:25:30 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1207
+Date/Time: 27/08/2016 4:25:35 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Attempted to divide by zero.
+StackTrace:    at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1234
+Date/Time: 27/08/2016 4:25:37 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Column 'TotalPcs' does not belong to table Table.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateInvokeDefault(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at CIS_Bussiness.DBValue.Return_DBValue(Object frm, Control ctl, String iFieldName, ValidationType iType) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\DBValue.cs:line 114
+   at CIS_Textil.frmFabricPurchaseReturn.FillControls() in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 173
+Date/Time: 27/08/2016 4:25:59 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 4:33:22 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Column 'TotalPcs' does not belong to table Table.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateInvokeDefault(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at CIS_Bussiness.DBValue.Return_DBValue(Object frm, Control ctl, String iFieldName, ValidationType iType) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\DBValue.cs:line 114
+   at CIS_Textil.frmFabricPurchaseReturn.FillControls() in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 173
+Date/Time: 27/08/2016 4:33:48 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Column 'TotalPcs' does not belong to table Table.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateInvokeDefault(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at CIS_Bussiness.DBValue.Return_DBValue(Object frm, Control ctl, String iFieldName, ValidationType iType) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\DBValue.cs:line 114
+   at CIS_Textil.frmFabricPurchaseReturn.FillControls() in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 173
+Date/Time: 27/08/2016 4:33:56 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Column 'TotalPcs' does not belong to table Table.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Symbols.Container.InvokeMethod(Method TargetProcedure, Object[] Arguments, Boolean[] CopyBack, BindingFlags Flags)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.CallMethod(Container BaseReference, String MethodName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack, BindingFlags InvocationFlags, Boolean ReportErrors, ResolutionFailure& Failure)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.InternalLateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, ResolutionFailure& Failure, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateInvokeDefault(Object Instance, Object[] Arguments, String[] ArgumentNames, Boolean ReportErrors, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateIndexGet(Object Instance, Object[] Arguments, String[] ArgumentNames)
+   at CIS_Bussiness.DBValue.Return_DBValue(Object frm, Control ctl, String iFieldName, ValidationType iType) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\DBValue.cs:line 114
+   at CIS_Textil.frmFabricPurchaseReturn.FillControls() in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 173
+Date/Time: 27/08/2016 4:34:03 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 4:39:13 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.cboReturnType_SelectedValueChanged(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 808
+Date/Time: 27/08/2016 4:40:48 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:40:51 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:40:51 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:40:52 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1207
+Date/Time: 27/08/2016 4:40:58 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Attempted to divide by zero.
+StackTrace:    at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1234
+Date/Time: 27/08/2016 4:41:00 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 4:43:02 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at EventHandles._CellValidating(Object sender, DataGridViewCellValidatingEventArgs e, DataTable& dt_HasDtls) in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\EventHandles.cs:line 587
+Date/Time: 27/08/2016 4:47:12 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.cboReturnType_SelectedValueChanged(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 808
+Date/Time: 27/08/2016 4:47:22 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:47:25 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:47:25 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 4:47:26 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1207
+Date/Time: 27/08/2016 4:47:29 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Attempted to divide by zero.
+StackTrace:    at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1234
+Date/Time: 27/08/2016 4:47:31 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 5:03:27 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.cboReturnType_SelectedValueChanged(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 808
+Date/Time: 27/08/2016 5:06:28 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 5:06:30 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 5:06:31 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 5:06:31 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1207
+Date/Time: 27/08/2016 5:06:35 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Attempted to divide by zero.
+StackTrace:    at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1234
+Date/Time: 27/08/2016 5:06:37 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 5:24:23 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   at CIS_Textil.frmFabricPurchase.EnabDisab(Boolean isenab) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchase.cs:line 2775
+   at CIS_Textil.frmFabricPurchase.FillControls() in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchase.cs:line 281
+Date/Time: 27/08/2016 5:24:45 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(Int32 index)
+   at CIS_Textil.frmFabricPurchase.CalcVal() in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchase.cs:line 981
+Date/Time: 27/08/2016 5:25:26 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.cboReturnType_SelectedValueChanged(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 808
+Date/Time: 27/08/2016 5:26:27 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 5:26:30 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 5:26:31 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 5:26:31 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1207
+Date/Time: 27/08/2016 5:26:35 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Attempted to divide by zero.
+StackTrace:    at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1234
+Date/Time: 27/08/2016 5:26:37 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.GetItem(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.get_Item(Int32 index)
+   at CIS_Textil.frmStockAdj.frmStockAdj_Load(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Adjustment\frmStockAdj.cs:line 161
+Date/Time: 27/08/2016 5:27:16 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.GetItem(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.get_Item(Int32 index)
+   at CIS_Textil.frmStockAdj.frmStockAdj_Load(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Adjustment\frmStockAdj.cs:line 161
+Date/Time: 27/08/2016 5:28:19 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.GetItem(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.get_Item(Int32 index)
+   at CIS_Textil.frmStockAdj.frmStockAdj_Load(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Adjustment\frmStockAdj.cs:line 161
+Date/Time: 27/08/2016 5:29:53 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 5:57:29 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.cboReturnType_SelectedValueChanged(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 808
+Date/Time: 27/08/2016 6:21:19 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 6:21:22 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 6:21:23 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.ExecuterTempQry(Int32 RowIndex) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1487
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 968
+Date/Time: 27/08/2016 6:21:23 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Object reference not set to an instance of an object.
+StackTrace:    at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1207
+Date/Time: 27/08/2016 6:21:27 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Attempted to divide by zero.
+StackTrace:    at System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at CIS_Textil.frmFabricPurchaseReturn.fgDtls_f_CellValueChanged(Object sender, DataGridViewCellEventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Fabric\frmFabricPurchaseReturn.cs:line 1234
+Date/Time: 27/08/2016 6:21:29 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.GetItem(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.get_Item(Int32 index)
+   at CIS_Textil.frmStockAdj.frmStockAdj_Load(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Adjustment\frmStockAdj.cs:line 161
+Date/Time: 27/08/2016 6:29:06 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.GetItem(Int32 index)
+   at Infragistics.Win.UltraWinGrid.CellsCollection.get_Item(Int32 index)
+   at CIS_Textil.frmStockAdj.frmStockAdj_Load(Object sender, EventArgs e) in D:\Desktop Projects\CIS_Textil\CIS_Textil\Forms\Transcations\Adjustment\frmStockAdj.cs:line 161
+Date/Time: 27/08/2016 6:44:49 PM
+===========================================================================================
+Form Name: 
+Title: Error
+Message: Cannot find column [ParentID].
+StackTrace:    at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CIS_Bussiness.LoadMenu.AddFavMenu(Int32 pParentID, ToolStripMenuItem mItm, Form& pForm, MenuStrip mainMenu) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 172
+   at CIS_Bussiness.LoadMenu.LoadDynamicMenu(Form& pForm, Int32 UserTypeID, Int32 UserID, MenuStrip objMenu, Int32 CompID) in D:\Desktop Projects\CIS_SDK\CIS_SDK\CIS_Bussiness\other\LoadMenu.cs:line 161
+   at CommonCls.LoadMDIMenu() in D:\Desktop Projects\CIS_Textil\CIS_Textil\ClassModule_define\CommonCls.cs:line 47
+Date/Time: 27/08/2016 6:55:27 PM
+===========================================================================================

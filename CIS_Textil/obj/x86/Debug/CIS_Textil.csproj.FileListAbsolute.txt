@@ -1,0 +1,15 @@
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\bin\Debug\CIS_Textil.exe
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\bin\Debug\CIS_Textil.pdb
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\obj\x86\Debug\CIS_Textil.Properties.Resources.resources
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\obj\x86\Debug\CIS_Textil.exe
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\obj\x86\Debug\CIS_Textil.pdb
+F:\Shekar\CIS_Textil\WindowsFormsApplication1\obj\x86\Debug\CIS_Textil.frmMDI.resources
+F:\Shekar\CIS_Textil\CIS_Textil\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Shekar\CIS_Textil\CIS_Textil\obj\x86\Debug\CIS_Textil.frmMDI.resources
+F:\Shekar\CIS_Textil\CIS_Textil\obj\x86\Debug\CIS_Textil.Properties.Resources.resources
+F:\Shekar\CIS_Textil\CIS_Textil\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Shekar\CIS_Textil\CIS_Textil\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Shekar\CIS_Textil\CIS_Textil\obj\x86\Debug\CIS_Textil.MDIMain.resources

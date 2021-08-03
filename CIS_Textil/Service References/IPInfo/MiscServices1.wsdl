@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetIPAdd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sClientID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetIPAddResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetIPAddResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInstanceNM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sClientID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInstanceNMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInstanceNMResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPortNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sClientID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPortNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPortNoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetIPAddSoapIn">
+    <wsdl:part name="parameters" element="tns:GetIPAdd" />
+  </wsdl:message>
+  <wsdl:message name="GetIPAddSoapOut">
+    <wsdl:part name="parameters" element="tns:GetIPAddResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInstanceNMSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInstanceNM" />
+  </wsdl:message>
+  <wsdl:message name="GetInstanceNMSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInstanceNMResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPortNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPortNo" />
+  </wsdl:message>
+  <wsdl:message name="GetPortNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPortNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetIPAddHttpGetIn">
+    <wsdl:part name="sClientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIPAddHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInstanceNMHttpGetIn">
+    <wsdl:part name="sClientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInstanceNMHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPortNoHttpGetIn">
+    <wsdl:part name="sClientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPortNoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIPAddHttpPostIn">
+    <wsdl:part name="sClientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIPAddHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInstanceNMHttpPostIn">
+    <wsdl:part name="sClientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInstanceNMHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPortNoHttpPostIn">
+    <wsdl:part name="sClientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPortNoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="MIscServicesSoap">
+    <wsdl:operation name="GetIPAdd">
+      <wsdl:input message="tns:GetIPAddSoapIn" />
+      <wsdl:output message="tns:GetIPAddSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInstanceNM">
+      <wsdl:input message="tns:GetInstanceNMSoapIn" />
+      <wsdl:output message="tns:GetInstanceNMSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPortNo">
+      <wsdl:input message="tns:GetPortNoSoapIn" />
+      <wsdl:output message="tns:GetPortNoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MIscServicesHttpGet">
+    <wsdl:operation name="GetIPAdd">
+      <wsdl:input message="tns:GetIPAddHttpGetIn" />
+      <wsdl:output message="tns:GetIPAddHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInstanceNM">
+      <wsdl:input message="tns:GetInstanceNMHttpGetIn" />
+      <wsdl:output message="tns:GetInstanceNMHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPortNo">
+      <wsdl:input message="tns:GetPortNoHttpGetIn" />
+      <wsdl:output message="tns:GetPortNoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MIscServicesHttpPost">
+    <wsdl:operation name="GetIPAdd">
+      <wsdl:input message="tns:GetIPAddHttpPostIn" />
+      <wsdl:output message="tns:GetIPAddHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInstanceNM">
+      <wsdl:input message="tns:GetInstanceNMHttpPostIn" />
+      <wsdl:output message="tns:GetInstanceNMHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPortNo">
+      <wsdl:input message="tns:GetPortNoHttpPostIn" />
+      <wsdl:output message="tns:GetPortNoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MIscServicesSoap" type="tns:MIscServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetIPAdd">
+      <soap:operation soapAction="http://tempuri.org/GetIPAdd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInstanceNM">
+      <soap:operation soapAction="http://tempuri.org/GetInstanceNM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPortNo">
+      <soap:operation soapAction="http://tempuri.org/GetPortNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MIscServicesSoap12" type="tns:MIscServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetIPAdd">
+      <soap12:operation soapAction="http://tempuri.org/GetIPAdd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInstanceNM">
+      <soap12:operation soapAction="http://tempuri.org/GetInstanceNM" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPortNo">
+      <soap12:operation soapAction="http://tempuri.org/GetPortNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MIscServicesHttpGet" type="tns:MIscServicesHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetIPAdd">
+      <http:operation location="/GetIPAdd" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInstanceNM">
+      <http:operation location="/GetInstanceNM" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPortNo">
+      <http:operation location="/GetPortNo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MIscServicesHttpPost" type="tns:MIscServicesHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetIPAdd">
+      <http:operation location="/GetIPAdd" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInstanceNM">
+      <http:operation location="/GetInstanceNM" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPortNo">
+      <http:operation location="/GetPortNo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MIscServices">
+    <wsdl:port name="MIscServicesSoap" binding="tns:MIscServicesSoap">
+      <soap:address location="http://valentine.crocusitsolutions.com/ws/MiscServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MIscServicesSoap12" binding="tns:MIscServicesSoap12">
+      <soap12:address location="http://valentine.crocusitsolutions.com/ws/MiscServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MIscServicesHttpGet" binding="tns:MIscServicesHttpGet">
+      <http:address location="http://valentine.crocusitsolutions.com/ws/MiscServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MIscServicesHttpPost" binding="tns:MIscServicesHttpPost">
+      <http:address location="http://valentine.crocusitsolutions.com/ws/MiscServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
